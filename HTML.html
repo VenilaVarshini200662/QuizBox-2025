@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizBox</title>
+    <link rel="stylesheet" href="questions.css">
+</head>
+
+<body>
+     <div class="Main">
+       <div class="MainTable">
+        <div class="imagediv">
+            <img src="QuizBoxwhiteCrop.png">
+        </div>
+        <table>
+        <tr>
+            <td onclick="goToPage('index.html')">Home</td>
+            <td onclick="goToPage('category.html')">Category</td>
+            <td onclick="goToPage('Feedback.html')">Feedback</td>
+        </tr>
+    </table>
+    </div>
+    <div class="sub1">
+        <h2 id="quizno">Question no of 5</h2>
+        <p id="scoredis"></p>
+        <h3 id="Questions">Question</h3>
+        <h4 id="emoji"></h4>
+        <h4 id="grade"></h4>
+        <div id="answer-buttons">
+            <button class="Answerbtn">Ans</button>
+            <button class="Answerbtn">Ans</button>
+            <button class="Answerbtn">Ans</button>
+            <button class="Answerbtn">Ans</button>
+        </div>    
+        <div><button id="nextbtn">Next</button></div>
+    </div>
+    <div class="bottomdiv">Copyright © 2025 QuizBox. All rights reserved.</div>   
+    </div>
+    <script src="HTML.js"></script>
+</body>
+</html>
