@@ -20,8 +20,10 @@ DESCRIPTION:
     *Category Selection
     *Correct answer is displayed intantly for each wrong answer.
     *Feedback can be send.
+    
   TOOLS AND TECHNOLOGIES USED:
-     HTML,CSS,Javascript and Emailjs to ensure realtime feedback facility.
+    * VScode.
+    * HTML,CSS,Javascript and Emailjs to ensure realtime feedback facility.
 
 OUTPUT:
 <img width="1910" height="913" alt="Image" src="https://github.com/user-attachments/assets/7c30932b-7705-43da-a729-a761eacfec32" />
